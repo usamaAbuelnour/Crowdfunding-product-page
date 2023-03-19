@@ -12,6 +12,6 @@ Enter the pledge amount
 
 ![alt text](./src/assets/screenshots/3.PNG)
 
-and you veiw the total product statistics
+And you can view the total product statistics
 
 ![alt text](./src/assets/screenshots/4.PNG)
