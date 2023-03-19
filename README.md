@@ -6,4 +6,8 @@ You can choose to support the product with the amount of money that suits you, a
 
 ![alt text](./src/assets/screenshots/1.PNG)
 
+Enter the pledge amount
+
 ![alt text](./src/assets/screenshots/2.PNG)
+
+![alt text](./src/assets/screenshots/3.PNG)
