@@ -1,0 +1,33 @@
+.toolBar{
+    border: 3px double var(--moderate-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 100;
+    background-color: rgb(black, 0.5);
+    padding: 1em 0.5em;
+    
+    @media (max-width: 991px){
+        .hide{
+            display: none;
+        }
+        
+    }
+    
+    @media (min-width: 992px){
+        left: 9%;
+        width: 100%;
+        left: 0 !important;
+        padding: 1em 5em;
+
+        
+        .navBar{
+            // border: 1px solid blanchedalmond;
+            width: 38%;
+        }
+    }
+
+}

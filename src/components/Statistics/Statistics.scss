@@ -1,0 +1,33 @@
+.statistics{
+
+    align-items: center;
+    text-align: center;
+
+    // & > * {border: 1px solid fuchsia;}
+    
+    & > div{
+        padding: 1.5em 0;
+    }
+    span{
+        color: var(--dark-gray);
+        font-weight: 500;
+        font-size: 0.93rem;
+    }
+    hr{
+        width: 100px;
+        border: 1px solid #dfdfdf;
+    }
+    
+    
+    @media (min-width: 992px){
+        flex-direction: row !important;
+        flex-wrap: wrap;
+        padding: 2em 1.8em !important;
+        row-gap: 2.5em;
+        
+        hr{
+            transform: rotate(90deg);
+        }
+
+    }
+}

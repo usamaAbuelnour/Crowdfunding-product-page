@@ -1,0 +1,11 @@
+.about{
+
+    & > *{
+        margin: 1em 0;
+        // border: 3px dotted greenyellow;
+    }
+    p{
+        color: var(--dark-gray);
+        line-height: 1.6;
+    }
+}

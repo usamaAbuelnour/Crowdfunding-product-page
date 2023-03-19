@@ -1,0 +1,16 @@
+.modal{
+    position: absolute;
+    z-index: 150;
+    top: 5%;
+
+    @media (min-width: 992px) {
+        top: 12%;
+
+        &.pledgeConfirm{
+            top: 45vh;
+        }
+    }
+}
+.close{
+    display: none !important;
+}

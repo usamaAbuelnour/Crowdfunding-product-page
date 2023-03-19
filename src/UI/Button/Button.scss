@@ -1,0 +1,85 @@
+.button{
+    // border: 2px dashed #fc3;
+    background-color: var(--moderate-cyan);
+    color: white;
+    font-weight: 500;
+    border-radius: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+
+    &:is(:hover, :active){
+        background-color: var(--dark-cyan);
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        display: block;
+        padding: 1em 1.2em;
+    }
+
+    div{
+        padding: 1em 0.8em;
+    }
+
+    .bookmarkContainer{
+        // border: 1px solid orange;
+        max-width: min-content;
+        padding: 0;
+        border-radius: 100%;
+        @media (max-width: 991px){
+
+            div{
+                display: none;
+            }
+
+        }
+
+        @media (min-width: 992px){
+
+            // border: 2px solid firebrick;
+            display: flex;
+            align-items: center;
+            background-color: #efefef;
+            border-radius: 3em;
+            color: var(--dark-gray);
+            padding: 0;
+
+            // & > *{border: 1px solid fuchsia;}
+
+            div{
+                padding: 1em
+            }
+            
+        }
+    }
+
+}
+
+.bookMark{
+    padding: 0;
+    background-color: transparent;
+    &:is(:hover, :active){
+        background-color: transparent;
+    }
+    
+}
+
+.reward{
+    width: max-content;
+    margin: 1.2em 0;
+}
+
+.disabled{
+    background-color: var(--dark-gray);
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+.continue{
+
+    flex: 0 1 40% ;
+}

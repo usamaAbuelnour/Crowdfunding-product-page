@@ -1,0 +1,28 @@
+:root{
+
+  --moderate-cyan: #3cb4ac;
+  --dark-cyan: #147b74;
+
+
+  --light-gray: rgb(224, 224, 224);
+  --dark-gray: rgb(122, 122, 122);
+
+}
+
+html{
+  font-size: 16px;
+  font-family: 'Commissioner', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fafafa;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+

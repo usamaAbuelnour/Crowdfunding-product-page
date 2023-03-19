@@ -1,0 +1,17 @@
+.menuButton{
+    // border: 2px solid firebrick;
+
+    img{
+        width: 100%;
+        display: block;
+    }
+
+    @media (min-width: 992px) {
+        display: none;
+    }
+
+}
+
+.disable{
+    pointer-events: none;
+}

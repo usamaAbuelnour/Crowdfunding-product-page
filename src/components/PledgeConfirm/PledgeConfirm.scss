@@ -1,0 +1,27 @@
+.pledgeConfirm{
+
+    // border: 1px dashed red;
+    & > *{
+        margin: 1em 0;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1em;
+    line-height: 1.6;
+    text-align: center;
+
+    h2{
+        font-size: (23rem / 16);
+    }
+
+    p{
+        color: var(--dark-gray);
+    }
+
+    
+
+}
+

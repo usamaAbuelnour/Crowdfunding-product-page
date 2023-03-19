@@ -1,0 +1,29 @@
+.backThisProject{
+    padding: 0 1em;
+
+    & > *{
+        margin: 1.5em 0;
+    }
+
+    header{
+        // border: 1px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        img{
+            cursor: pointer;
+        }
+    }
+
+    p{
+        margin: 1.2em 0;
+        color: var(--dark-gray);
+        line-height: 1.6;
+    }
+    
+}
+
+.close{
+    display: none;
+}
